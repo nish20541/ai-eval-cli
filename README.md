@@ -1,4 +1,4 @@
-# AI Eval CLI 
+# AI Evals CLI 
 
 ## 🎯 What it does:
 **AI Eval CLI** is a command-line tool that leverages AI evals to A/B test multiple AI models against goldens and generated edge cases. By scoring responses on accuracy and robustness, it helps product managers and developers compare models under real-world conditions. The tool outputs clear reports that highlight strengths, weaknesses, and trade-offs between models—making it easier to guide model selection and deployment decisions.
