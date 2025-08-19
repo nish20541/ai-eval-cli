@@ -1,0 +1,92 @@
+[
+  {
+    "task": "summarization",
+    "prompt": "Summarize: The cat sat on the mat.",
+    "golden": "A cat is sitting on a mat.",
+    "tone": "neutral"
+  },
+  {
+    "task": "summarization",
+    "prompt": "Summarize: The product update introduces offline mode, improves sync speed by 2x, and adds dark theme options.",
+    "golden": "The update adds offline mode, doubles sync speed, and includes a dark theme.",
+    "tone": "neutral"
+  },
+  {
+    "task": "summarization",
+    "prompt": "Summarize: To reset your router, unplug it for 30 seconds, then plug it back in and wait for the lights to stabilize.",
+    "golden": "Unplug the router for 30 seconds, plug it back in, and wait for the lights to stabilize.",
+    "tone": "neutral"
+  },
+  {
+    "task": "qa",
+    "prompt": "Who is the CEO of Tesla?",
+    "golden": "Elon Musk.",
+    "tone": "neutral"
+  },
+  {
+    "task": "qa",
+    "prompt": "What is the capital of Japan?",
+    "golden": "Tokyo.",
+    "tone": "neutral"
+  },
+  {
+    "task": "qa",
+    "prompt": "In what year did the Apollo 11 moon landing occur?",
+    "golden": "1969.",
+    "tone": "neutral"
+  },
+  {
+    "task": "instruction",
+    "prompt": "Write a polite apology email for a late shipment (2–3 sentences).",
+    "golden": "Subject: Apology for Late Shipment\n\nHi [Name],\nI'm sorry your order arrived later than expected. We're expediting a replacement and will update you with tracking shortly. Thank you for your patience.",
+    "tone": "polite"
+  },
+  {
+    "task": "instruction",
+    "prompt": "List three bullet-point safety tips for using a ladder.",
+    "golden": "- Maintain three points of contact.\n- Place the ladder on level, stable ground.\n- Do not stand on the top rung.",
+    "tone": "concise"
+  },
+  {
+    "task": "instruction",
+    "prompt": "Convert \"5 PM UTC\" to Pacific Time (PT), assuming standard time.",
+    "golden": "9 AM PT.",
+    "tone": "neutral"
+  },
+  {
+    "task": "reasoning",
+    "prompt": "What's 15% of 200?",
+    "golden": "30.",
+    "tone": "neutral"
+  },
+  {
+    "task": "reasoning",
+    "prompt": "A train travels 60 miles in 1.5 hours. What is its average speed in mph?",
+    "golden": "40 mph.",
+    "tone": "neutral"
+  },
+  {
+    "task": "reasoning",
+    "prompt": "A price increases from $80 to $100. What is the percent increase?",
+    "golden": "25%.",
+    "tone": "neutral"
+  },
+  {
+    "task": "creative",
+    "prompt": "Suggest 3 names for a productivity app that helps reduce meetings (short, modern).",
+    "golden": "MeetLess; FocusFlow; SyncLite.",
+    "tone": "creative"
+  },
+  {
+    "task": "creative",
+    "prompt": "Rewrite this in a friendly tone: \"Your account was suspended due to policy violations.\"",
+    "golden": "We've temporarily suspended your account due to a policy issue, and we're here to help you resolve it.",
+    "tone": "friendly"
+  },
+  {
+    "task": "creative",
+    "prompt": "Write a one-sentence tagline for a meal-kit service that emphasizes speed.",
+    "golden": "Fresh dinners on your table in 15 minutes.",
+    "tone": "punchy"
+  }
+]

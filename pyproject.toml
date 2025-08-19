@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aieval"
+version = "0.1.0"
+description = "PM-centric CLI for A/B evaluating LLMs against golden responses"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "click>=8.1,<9",
+    "requests>=2.31,<3",
+    "textstat>=0.7,<1",
+    "vaderSentiment>=3.3,<4",
+    "openai>=1.12,<2",
+    "reportlab>=3.6,<4",
+    "numpy>=1.26,<3"
+]
+
+[project.scripts]
+aieval = "aieval.cli:main"
+
+[tool.setuptools]
+packages = ["aieval"]
